@@ -1,0 +1,48 @@
+# Godot auto generated files
+*.gen.*
+.godot/
+
+# Ignore library files but not the gdextension file
+bin/*
+!bin/.gitkeep
+build/*
+!build/.gitkeep
+doc/*
+!doc/.gitkeep
+third_party/*
+!third_party/.gitkeep
+third_party/root/*
+!third_party/root/.gitkeep
+
+# Binaries
+*.o
+*.os
+*.so
+*.obj
+*.bc
+*.pyc
+*.dblite
+*.pdb
+*.lib
+*.config
+*.creator
+*.creator.user
+*.files
+*.includes
+*.idb
+*.exp
+
+# Other stuff
+*.log
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+
+# Jetbrains
+.idea/
+
+# Cmake
+cmake-build*
+CMakeUserPresets.json
